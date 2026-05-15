@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmid-transformer-rag"
+version = "0.1.0"
+description = "Transformer-based Chinese medical intent detection, query rewriting, and retrieval-augmented QA."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "transformers",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "nltk",
+    "jieba",
+    "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
