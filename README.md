@@ -20,7 +20,7 @@ CMID-master/
   data/kb/                  # LLM 增强生成的问答知识库
   artifacts/figures/        # 训练曲线、混淆矩阵、t-SNE、注意力图
   reports/                  # 指标报告与历史实验结果
-  checkpoints/              # 本地模型权重，不建议提交到 GitHub
+  checkpoints/              # 模型权重
   docs/                     # 汇报 PPT 与项目说明
 ```
 
